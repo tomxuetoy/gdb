@@ -1,0 +1,6 @@
+Compile:
+    gcc -g -Wall -o stack stack.c
+
+Disassembling:
+    objdump -d stack > stack.dump
+    cat stack.dump
